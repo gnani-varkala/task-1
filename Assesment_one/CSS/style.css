@@ -8,13 +8,13 @@ background: white !important;
 }
 .main-div{
   float: right;
-  width:400px;
+  width:500px;
   height:97px;
 }
 .input-box{
   border: 1px solid black;
-  heigth:42px;
-  width:238px;
+  height:42px;
+  width:338px;
   margin-top: 28px;
   margin-bottom: 28px;
   margin-left: 10px;
@@ -60,7 +60,7 @@ background: white !important;
 }
 .second-nav{
   height: 63px !important;
-  width: 100%;
+  width: 100% !important;
   background: #e4e4e6 !important;
   padding: 0px 0px !important;
 
@@ -69,11 +69,28 @@ background: white !important;
   height: 63px;
     width: 65px;
     color: white;
-    background: green;
+        background: #53cc53;
     font-size: 40px;
     text-align: center;
     padding-top: 10px;
 }
+.second-circle {
+    margin-top: 15px;
+    margin-bottom: 5px;
+     width: 47px;
+     height: 47px;
+     text-align: center;
+     -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+     border-radius: 25px;
+     background: blue;
+   }
+   .plusIcon{
+	   font-size: 45px;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+   }
 .small{
   opacity: 0.5;
   font-size:12px;
