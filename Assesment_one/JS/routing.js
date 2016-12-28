@@ -12,7 +12,7 @@
               .state('main', {
                   url:'/',
                   controller : 'jsonCtrl',
-                  templateUrl: '../VIEW/main-page.html',
+                  templateUrl: 'VIEW/main-page.html',
                   resolve: {
                     getMyJson: function($http){
                       return  $http.get("./JSON/table.json").then(function(response) {
