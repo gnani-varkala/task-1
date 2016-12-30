@@ -6,11 +6,11 @@
         .module('fieldApp')
         .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
 
-          $urlRouterProvider.otherwise('/');
+          $urlRouterProvider.otherwise('/main');
 
           $stateProvider
               .state('main', {
-                  url:'/',
+                  url:'/main',
                   controller : 'jsonCtrl',
                   templateUrl: 'VIEW/main-page.html',
                   resolve: {
@@ -20,6 +20,10 @@
                         })
                     }
                   }
+              })
+              .state('main.navbar',{
+                url:'/',
+                templateUrl:'VIEW/vertical-navbar.html'
               });
         }]);
 })();

@@ -202,3 +202,31 @@ h4 {
 .head {
   font-family: FiraSans-Regular;
 }
+.nav-color{
+  color: white;
+  background: #85b84b;
+  height:100%
+}
+.title{
+  padding:10px 5px 5px 5px;
+  border-bottom: 1px solid white;
+}
+.new-menuIcon{
+  color:white;
+  font-size:20px;
+
+}
+.menu{
+  font-size:25px;
+}
+
+.back-position{
+  position:fixed;
+  width:100%;
+}
+
+.front-position{
+  position:absolute;width:100%;
+  height:81%;
+  background:rgba(0,0,0,0.4);
+}

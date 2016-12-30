@@ -7,9 +7,7 @@
 
     jsonCtrl.$inject = ['$scope','getMyJson'];
     function jsonCtrl($scope,getMyJson){
-
-      console.log(getMyJson);
       $scope.myJson = getMyJson;
-      
+
     }
 })();
