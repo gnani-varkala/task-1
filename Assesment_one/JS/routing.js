@@ -23,6 +23,9 @@
               })
               .state('main.navbar',{
                 url:'/',
+                controller : function($rootScope){
+                    $(".front-position")[0].style.height = $(document).height() - 114;
+                },
                 templateUrl:'VIEW/vertical-navbar.html'
               });
         }]);
